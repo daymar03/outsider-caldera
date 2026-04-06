@@ -1,0 +1,12 @@
+{
+    "categories": ["TEST", "SMTP"],
+    "tags": ["smtp", "test", "email", "functional"],
+    "description": "Envío de email de prueba funcional",
+    "payload": {
+      "attack_type": "smtp_send_test",
+      "sender": "test@sender.com",
+      "recipient": "test@recipient.com",
+      "subject": "Test Email",
+      "body": "This is a test email from Caldera SMTP plugin"
+    }
+  }

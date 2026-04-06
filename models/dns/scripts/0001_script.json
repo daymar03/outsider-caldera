@@ -1,0 +1,12 @@
+{
+  "name": "DNS First Script",
+  "description": "Script for testing",
+  "payloads": [
+    "0002_DNS",
+    "0001_DNS",
+    "0003_DNS",
+    "0004_DNS",
+    "0005_DNS"
+  ],
+  "payload_count": 5
+}

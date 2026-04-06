@@ -1,0 +1,14 @@
+{
+    "categories":["ENUMERATION", "FUZZING"],
+    "tags": ["wordpress","w`-admin","fuzzing"],
+    "description":"Discovering common wordpress directories",
+    "payload":
+        {
+        "route":"/wp-admin",
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":{}
+        }
+    }
+    

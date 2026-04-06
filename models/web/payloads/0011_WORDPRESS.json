@@ -1,0 +1,14 @@
+{
+    "categories":["ENUMERATION", "FUZZING"],
+    "tags": ["wordpress","robots.txt","fuzzing"],
+    "description":"Discovering common wordpress directories",
+    "payload":
+        {
+        "route":"/robots.txt",   
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":{}
+        }
+    }
+    

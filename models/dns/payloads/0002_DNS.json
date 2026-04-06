@@ -1,0 +1,10 @@
+{
+    "categories": ["RECONNAISSANCE"],
+    "tags": ["dns", "nxdomain", "dga"],
+    "description": "Multiple NXDOMAIN queries simulating DGA behavior",
+    "payload": {
+      "qname": "xj29dkqla92md.example",
+      "qtype": "A"
+    }
+  }
+  

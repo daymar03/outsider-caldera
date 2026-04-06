@@ -1,0 +1,16 @@
+{
+  "name": "Wordpress Payloads",
+  "description": "This Template contains a lot of adversary behavior against WordPress based targets, like user enumeration, directory discovery and CVE explotation",
+  "payloads": [
+    "0006_WORDPRESS",
+    "0007_WORDPRESS",
+    "0009_WORDPRESS",
+    "0010_WORDPRESS",
+    "0011_WORDPRESS",
+    "0012_WORDPRESS",
+    "0013_WORDPRESS",
+    "0014_WORDPRESS",
+    "0015_WORDPRESS"
+  ],
+  "payload_count": 9
+}

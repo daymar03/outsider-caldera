@@ -1,0 +1,12 @@
+{
+    "categories": ["EXPLOIT", "SMTP"],
+    "tags": ["smtp", "spoofing", "phishing", "email"],
+    "description": "Prueba de spoofing de dirección de email",
+    "payload": {
+      "attack_type": "smtp_spoof_test",
+      "spoof_from": "security@microsoft.com",
+      "target_to": "admin@target-domain.com",
+      "subject": "Urgent Security Update Required",
+      "body": "Please update your system immediately..."
+    }
+  }

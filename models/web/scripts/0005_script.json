@@ -1,0 +1,10 @@
+{
+  "name": "iiiiiii",
+  "description": "gggggggg",
+  "payloads": [
+    "0002_XSS",
+    "0003_XSS",
+    "0001_RCE"
+  ],
+  "payload_count": 3
+}

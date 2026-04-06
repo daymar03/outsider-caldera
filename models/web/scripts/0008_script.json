@@ -1,0 +1,10 @@
+{
+  "name": "xss script",
+  "description": "a simple xss adversary emulation",
+  "payloads": [
+    "0001_XSS",
+    "0002_XSS",
+    "0003_XSS"
+  ],
+  "payload_count": 3
+}

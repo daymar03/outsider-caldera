@@ -1,0 +1,18 @@
+{
+    "categories": ["EXPLOIT", "SMTP"],
+    "tags": ["smtp", "open_relay", "spam", "exploit"],
+    "description": "Prueba de open relay SMTP",
+    "payload": {
+      "attack_type": "smtp_open_relay",
+      "test_cases": [
+        {
+          "from": "attacker@external-domain.com",
+          "to": "victim@another-external.com"
+        },
+        {
+          "from": "test@localhost",
+          "to": "external@example.com"
+        }
+      ]
+    }
+  }

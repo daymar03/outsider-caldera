@@ -1,0 +1,14 @@
+{
+    "categories":["ENUMERATION", "FUZZING"],
+    "tags": ["wordpress","wp-content","plugins","fuzzing"],
+    "description":"Discovering common wordpress directories",
+    "payload":
+        {
+        "route":"/wp-content/plugins",   
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":{}
+        }
+    }
+    

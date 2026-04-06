@@ -1,0 +1,15 @@
+{
+    "categories": ["TEST", "SMTP"],
+    "tags": ["smtp", "authenticated", "test"],
+    "description": "Prueba SMTP con autenticación",
+    "payload": {
+      "attack_type": "smtp_send_test",
+      "connection": {
+        "username": "user@domain.com",
+        "password": "password123",
+        "use_tls": true
+      },
+      "sender": "user@domain.com",
+      "recipient": "recipient@example.com"
+    }
+  }

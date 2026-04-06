@@ -1,0 +1,10 @@
+{
+    "categories": ["C2", "EVASION"],
+    "tags": ["dns", "covert-channel"],
+    "description": "DNS NULL record used for covert channel",
+    "payload": {
+      "qname": "covert.example",
+      "qtype": "NULL"
+    }
+  }
+  

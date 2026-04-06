@@ -1,0 +1,17 @@
+{
+  "name": "first smtp script",
+  "description": "script for testing",
+  "payloads": [
+    "0001-SMTP",
+    "0002-SMTP",
+    "0004-SMTP",
+    "0003-SMTP",
+    "0005-SMTP",
+    "0006-SMTP",
+    "0007-SMTP",
+    "0008-SMTP",
+    "0009-SMTP",
+    "0010-SMTP"
+  ],
+  "payload_count": 10
+}

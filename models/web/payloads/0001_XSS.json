@@ -1,0 +1,15 @@
+{
+"categories":["XSS"],
+"tags": ["xss","javascript","alert","reflected"],
+"description":"common XSS payload",
+"payload":
+    {
+    "method":"GET",
+    "headers":{},
+    "body":{},
+    "query":
+        {
+        "q":"<script>alert()</script>"
+        }
+    }
+}

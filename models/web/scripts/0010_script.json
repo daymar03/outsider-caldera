@@ -1,0 +1,14 @@
+{
+  "name": "wp-script",
+  "description": "Script for testing defenses of WordPress targets",
+  "payloads": [
+    "0006_WORDPRESS",
+    "0007_WORDPRESS",
+    "0009_WORDPRESS",
+    "0010_WORDPRESS",
+    "0011_WORDPRESS",
+    "0013_WORDPRESS",
+    "0014_WORDPRESS"
+  ],
+  "payload_count": 7
+}

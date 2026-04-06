@@ -1,0 +1,10 @@
+{
+    "categories": ["C2"],
+    "tags": ["dns", "txt", "command-and-control"],
+    "description": "DNS TXT query used as command channel",
+    "payload": {
+      "qname": "cmd.polling.example",
+      "qtype": "TXT"
+    }
+  }
+  

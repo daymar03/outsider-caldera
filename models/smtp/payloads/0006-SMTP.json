@@ -1,0 +1,8 @@
+{
+    "categories": ["RECON", "SMTP"],
+    "tags": ["smtp", "capabilities", "extensions", "enumeration"],
+    "description": "Análisis de capacidades/extensions del servidor SMTP",
+    "payload": {
+      "attack_type": "smtp_capabilities"
+    }
+  }

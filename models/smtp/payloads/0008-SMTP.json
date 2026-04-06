@@ -1,0 +1,8 @@
+{
+    "categories": ["RECON", "DNS", "SMTP"],
+    "tags": ["smtp", "dns", "spf", "dkim", "dmarc"],
+    "description": "Verificación de registros DNS de seguridad de email",
+    "payload": {
+      "attack_type": "smtp_dns_checks"
+    }
+  }

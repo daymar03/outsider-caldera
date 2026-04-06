@@ -1,0 +1,10 @@
+{
+    "categories": ["DISCOVERY"],
+    "tags": ["dns", "bruteforce"],
+    "description": "DNS subdomain brute force behavior",
+    "payload": {
+      "qname": "admin.internal.example",
+      "qtype": "A"
+    }
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "categories": ["ENUMERATION", "SMTP"],
+    "tags": ["smtp", "user_enum", "vrfy", "expn", "reconnaissance"],
+    "description": "Enumeración de usuarios SMTP usando VRFY/EXPN/RCPT",
+    "payload": {
+      "attack_type": "smtp_user_enum",
+      "method": "VRFY",
+      "users": ["admin", "root", "postmaster", "webmaster", "info", "test"]
+    }
+  }

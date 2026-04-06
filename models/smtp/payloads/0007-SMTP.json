@@ -1,0 +1,8 @@
+{
+    "categories": ["SECURITY", "SMTP"],
+    "tags": ["smtp", "starttls", "tls", "encryption"],
+    "description": "Prueba de soporte y configuración STARTTLS",
+    "payload": {
+      "attack_type": "smtp_starttls"
+    }
+  }
